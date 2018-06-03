@@ -1,0 +1,7 @@
+spring.datasource:
+  url: jdbc:h2:./test # DB_CLOSE_ON_EXIT=FALSE # jdbc:h2:tcp://localhost/~/penguindb
+  driverClassName: org.h2.Driver
+  username: sa
+  password: sa
+
+spring.jpa.hibernate.ddl-auto: update
